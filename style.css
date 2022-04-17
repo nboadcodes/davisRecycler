@@ -1,0 +1,346 @@
+@font-face{
+    src: url(Fonts/Englebert-Regular.ttf);
+    font-family: Englebert;
+}
+
+@font-face{
+    src: url(Fonts/CourierPrime-Regular.ttf);
+    font-family: Courier;
+}
+
+#plasticBut{
+    position: absolute;
+    width: 220px;
+    height: 77px;
+    left: 70px;
+    top: 510px;
+}
+
+#logo{
+    object-fit: cover;
+    max-width:100%;
+    max-height:100%;
+}
+
+/* Rectangle 15 */
+#glassBut{
+position: absolute;
+width: 220px;
+height: 77px;
+left: 644px;
+top: 510px;
+}
+
+#cardboardBut{
+    
+position: absolute;
+width: 220px;
+height: 77px;
+left: 934px;
+top: 510px;
+    }
+  #metalBut{
+        position: absolute;
+        width: 220px;
+height: 77px;
+left: 1222px;
+top: 510px;
+        }
+
+#paperBut{
+position: absolute;
+width: 220px;
+height: 77px;
+left: 352px;
+top: 510px;
+}
+.initButtons{
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+
+#yes{
+    position: absolute;
+    width: 127px;
+    height: 77px;
+    left: 518px;
+    top: 600px;
+
+    background: #B2FFAB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    font-family: 'Englebert';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+#no{
+    /* Rectangle 14 */
+    position: absolute;
+    width: 127px;
+    height: 77px;
+    left: 56vw;
+    top: 600px;
+
+    background: #FFABAB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    font-family: 'Englebert';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+#response{
+    position: absolute;
+    width: 1295px;
+    height: 62px;
+    left: 132px;
+    top: 240px; /*shift down 190*/
+
+    text-align: center;
+    font-family: Englebert;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 62px;
+    line-height:1.1em;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.topButton{
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#home{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 342px;
+    top: 41px;/*-40*/
+}
+
+#homeText{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    position: absolute;
+    width: 138px;
+    height: 24px;
+    left: 16px;
+    top: 18px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#questionnaire{
+    /* Rectangle 1 */
+    position: absolute;
+    width: 356px;
+    height: 86px;
+    left: 602px;
+    top: 600px;
+
+}
+#questionnaireText{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+
+    position: absolute;
+    width: 272px;
+    height: 65px;
+    left: 40px;
+    top: 25px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+}
+/* Questionares (Try it out) */
+
+#source{
+    position: absolute;
+    top: 97vh; 
+    left: 80vw;
+}
+
+#recycle{ 
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 626px;
+    top: 41px;/*-40*/
+}
+
+#recycleText{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    /*color: initial;*/
+    position: absolute;
+    width: 138px;
+    height: 24px;
+    left: 16px;
+    top: 18px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#people{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 910px;
+    top: 41px; /*-40*/
+}
+
+#peopleText{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    /*color: initial;*/
+    position: absolute;
+    width: 138px;
+    height: 24px;
+    left: 16px;
+    top: 18px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#aboutUs{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 1194px;
+    top: 41px; /*-40*/
+}
+
+#aboutUsText{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    /*color: initial;*/
+
+    position: absolute;
+    width: 138px;
+    height: 24px;
+    left: 16px;
+    top: 18px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#button1{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 1079px;
+    top: 113px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#background{
+    position: absolute;
+    width: 1512px;
+    height: 1018px;
+    left: 0px;
+    top: 0px;
+    background: url('Green2.PNG');
+    background-size: 100%;
+
+}
+
+.purple{
+    position: absolute;
+    width: 388px;
+    height: 48px;
+    left: 19px;
+    top: 266px;
+
+    background: #855F5F;
+    border-radius: 20px;
+
+}
+
